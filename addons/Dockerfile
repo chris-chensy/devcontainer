@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/base:debian
+FROM mcr.microsoft.com/vscode/devcontainers/base:debian-11
 
 ENV \
     DEBIAN_FRONTEND=noninteractive \
