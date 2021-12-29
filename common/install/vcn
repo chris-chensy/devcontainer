@@ -4,5 +4,5 @@ set -e
 
 VCN_VERSION=$(get_package_version vcn)
 
-curl -Lso /bin/vcn https://github.com/codenotary/vcn/releases/download/${VCN_VERSION}/vcn-${VCN_VERSION}-linux-amd64-static
+curl -Lso /bin/vcn https://github.com/codenotary/vcn/releases/download/${VCN_VERSION}/vcn-${VCN_VERSION}-linux-arm64
 chmod a+x /bin/vcn
