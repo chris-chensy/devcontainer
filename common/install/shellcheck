@@ -3,7 +3,7 @@
 set -e
 
 curl -fLs \
-    "https://github.com/koalaman/shellcheck/releases/download/stable/shellcheck-stable.linux.x86_64.tar.xz" \
+    "https://github.com/koalaman/shellcheck/releases/download/stable/shellcheck-stable.linux.aarch64.tar.xz" \
     | tar -xJ
 
 mv -f "./shellcheck-stable/shellcheck" "/usr/bin/shellcheck"
